@@ -20,7 +20,7 @@ public class CarsMouvement : MonoBehaviour
     void FixedUpdate()
     {
         dir = front.transform.position - transform.position;
-        Debug.Log(rb.velocity.magnitude);
+        //Debug.Log(rb.velocity.magnitude);
 
         if (rb.velocity.magnitude < maxSpeed)
         {
