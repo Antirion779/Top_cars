@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5735015260767056397, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5735015260767056399, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
       propertyPath: m_SortingOrder
       value: 9
@@ -182,12 +186,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cars
       objectReference: {fileID: 0}
+    - target: {fileID: 5735015261054939544, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5735015261054939547, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5735015261106893611, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735015261106893611, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
+--- !u!1 &695831204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5735015261054939544, guid: abab35e78012b4e4b878116f8194c6db, type: 3}
+  m_PrefabInstance: {fileID: 695831203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695831205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695831204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d20c9fce060f07469bab3119ddf1a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycasts:
+  - radAngle: 0
+    length: 7
+  - radAngle: 0.3932408
+    length: 7
+  - radAngle: 0.3932408
+    length: 7
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &932033286
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,11 +331,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5017311567541048680, guid: c9bede1ad3835a644bd857d08a14397c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 35.8
       objectReference: {fileID: 0}
     - target: {fileID: 5017311567541048680, guid: c9bede1ad3835a644bd857d08a14397c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -10.1
       objectReference: {fileID: 0}
     - target: {fileID: 5017311567541048680, guid: c9bede1ad3835a644bd857d08a14397c, type: 3}
       propertyPath: m_LocalPosition.z
