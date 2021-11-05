@@ -20,19 +20,17 @@ public class CarsMouvement : MonoBehaviour
     void FixedUpdate()
     {
         dir = front.transform.position - transform.position;
-        Debug.Log(rb.velocity.magnitude);
+        //Debug.Log(rb.velocity.magnitude);
 
         if (rb.velocity.magnitude < maxSpeed)
         {
             if (Input.GetKey(KeyCode.Keypad8))//Up
             {
                 rb.AddForce(dir * speed);
-                Debug.Log("Forward");
             }
             if (Input.GetKey(KeyCode.Keypad2))//Down
             {
                 rb.AddForce(Vector2.up * -speed);
-                Debug.Log("backward");
             }
         }
         

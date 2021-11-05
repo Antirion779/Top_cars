@@ -7,6 +7,7 @@ TagManager:
   - Track
   - Grass
   - Water
+  - Gate
   layers:
   - Default
   - TransparentFX
