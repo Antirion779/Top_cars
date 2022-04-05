@@ -1,0 +1,23 @@
+{
+  {
+    {
+      "terrainName" = "track",
+      "distance" = 1
+    },
+    {
+      "terrainName" = "dirt",
+      "distance" = 0.5
+    },
+    {
+      "terrainName" = "water",
+      "distance" = 5
+    }
+  }
+  {
+    "speed": 10,
+    "turn": -1
+  },
+  {
+    "xd": "hello world"
+  }
+}
